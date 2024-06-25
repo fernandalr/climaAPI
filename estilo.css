@@ -1,0 +1,172 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px;
+  
+}
+
+.title h1, h4 {
+  font-size: 30px;
+  margin: 0;
+}
+
+div[align="center"] {
+  margin-top: 20px;
+}
+
+.parra,p{
+  font-size: 20px;
+  margin-right: 100px ;
+  margin-left: 100px;
+}
+b {
+  font-size: 22px;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#resultado {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.banner {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner h3 {
+  margin-top: 0;
+}
+
+.izquierdo p,
+.derecho p {
+  margin: 0;
+}
+
+.semaforo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.verde {
+  background-color: #4CAF50;
+}
+
+.amarillo {
+  background-color: #FFCA28;
+}
+
+.naranja {
+  background-color: #FF9800;
+}
+
+.rojo {
+  background-color: #F44336;
+}
+
+.morado {
+  background-color: #9C27B0;
+}
+
+#imagenEstado {
+  width: 450px;
+  height: auto;
+}
+.container-c{ /* contenedores dentro del cuerpo */
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: nowrap;
+  margin-right: 3%;
+  margin-top: 3%;
+  margin-left: 3%;
+   
+}
+
+.container-b{ /* contenedor del cuerpo */
+  display: flex;
+  align-items: normal;
+  background-color: #f1f1f1;
+  margin-left:auto;
+  margin: right 100px;;
+  max-width: 1400px;
+  
+
+}
+
+button {
+  appearance: none;
+  background-color: rgb(228, 238, 228);
+  border: 0.125em solid #1A1A1A;
+  border-radius: 0.9375em;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 10px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 3.75em;
+  min-width: 0;
+  outline: none;
+  padding: 1em 2.3em;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+ }
+ 
+ button:disabled {
+  pointer-events: none;
+ }
+ 
+ button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+ }
+ 
+ button:active {
+  box-shadow: none;
+  transform: translateY(0);
+ }
+
+.consul{
+  background-color: #00fd4c;
+  font-size: 15px;
+}
+
+table{
+  align-items: center;
+  text-align: center;
+  width: 90%;
+}

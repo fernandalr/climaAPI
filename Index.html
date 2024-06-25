@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<header>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <title>Consulta de Calidad del Aire</title> <!--Titulo de la pestaña-->
+  
+</header>
+
+
+
+
+<body>
+
+  <div class="title" style="display: flex; justify-content: space-between;">
+    <h1>Consulta de Calidad del Aire</h1>
+    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc3rSVPbtbRcsdv-gEVn54iL3916xd05wf_qUBOYnTexiSOyA/viewform?pli=1"><button>Formulario</button></a>
+</div><!--Tema-->
+
+<br>
+  
+    <td>
+      <p class="parra"> La contaminacion atmosferica se ha convertido en un tema de gran impacto para la sociedad, ya que en la actualidad la calidad del aire no es muy buena en ciertos lugares. No solo provocada por la obra del ser humano, sino tambien por la naturaleza misma. Por ejemplo, el volcan 
+      Popocatepetl ubicado en el estado de Puebla, ha expulsado ceniza en estos dias.
+      </p>
+      <br>
+      <h4 align="center">¿Qué es el AQI?</h4>
+      <p align=" center">El AQI es una herramienta que le dice cuándo se pronostican altos niveles de contaminación del aire y cómo esta afecta su salud.</p>
+      <br><br><br>
+  </td>
+    
+<div align="center"><!--Introducción-->
+  
+  <!--Indicación-->
+  <b>Si quieres saber la calidad de aire, selecciona el estado que desea consultar y después de en en el botón "Consultar"</b>
+</div>
+<br><br>
+
+  <div align="center">
+
+    <select id="inputLugar" onchange="cambiarImagen(this.value)">
+      <option value="vacio">- Selecciona Estado -</option>
+      <option value="Ciudad de México" >Ciudad de México </option>
+      <option value="Puebla" >Puebla </option>
+      <option value="San Luis Potosí" >San Luis Potosi</option>
+      <option value="Guadalajara" >Guadalajara </option>
+      <option value="Nayarit" >Nayarit</option>
+      <option value="Guanajuato" >Guanajuato</option>
+      <option value="Jalisco" >Jalisco</option>
+      <option value="Durango" >Durango</option>
+      <option value="Morelos" >Morelos</option>
+      <option value="Huludao" >Huludao</option>
+      <option value="Jinchang">Jinchang</option>
+      <option value="Patna">Patna</option>
+     </select>
+
+    <button  class ="consul" onclick="obtenerCalidadAire()">Consultar</button> <!--Botón que obtiene la calidad del aire -->
+  </div>
+
+  <br><br><br><br>
+  <div class="container-b" >
+    <div class="container-c"><!--Contenedor para imagen de estados-->
+     <img id="imagenEstado" src="img/default.jpg" ><!--Imagen default "blanco"-->
+    
+  </div>
+    <div class="container-c" id="resultado"></div> <!--Contenedor donde muestra el resultado-->
+    <div class="container-c" id="semaforo"></div><!--Contenedor donde se localiza el semáforo-->
+  </div>
+  <br><br>
+    <div align="center">
+      <img src="img/escala.jpg" alt="escala" width="800" height="auto">
+    </div>
+    <br><br>
+    
+  <br><br>
+  
+    
+  
+
+  <footer>
+    <div class="banner"><!--Banner donde indica los nombres de los integrantes y la materia.--> 
+      <div class="izquierdo">
+        <h3>Equipo Alpha</h3>
+          <p>Lara Romero Fernanda</p>
+          <p>Brito Bautista Jonathan Yamil</p>
+          <p>Martínez Hernandez Luis Daniel</p>
+          <p>Martínez Loa Martha Socorro</p>
+          <p>Camacho Baltazar Irving Fernando</p>
+          </p>
+      </div>
+      <div class="derecho">
+          <h3>Universidad Autónoma Metropolitana</h3>
+          <b>Laboratorio Temático I</b>
+          <p>Grupo: DE01T</p>
+      </div>
+    </div>
+  </footer>
+    
+
+   
+
+<script src="scr.js"></script><!--Enlazar al script-->
+
+</body>
+
+
+ 
+</html>
